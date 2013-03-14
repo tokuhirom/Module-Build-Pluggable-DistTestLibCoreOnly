@@ -1,6 +1,7 @@
-# requires 'Exporter'                      => '0';
 requires 'parent'                        => '0';
-# requires 'Plack'                         => '0.9949';
+requires 'lib::core::only';
+requires 'App::cpanminus';
+requires 'Module::Build::Pluggable::Base';
 
 on 'configure' => sub {
     requires 'Module::Build' => '0.40';
