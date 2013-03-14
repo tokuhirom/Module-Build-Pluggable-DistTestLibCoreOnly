@@ -1,7 +1,7 @@
 requires 'parent'                        => '0';
 requires 'lib::core::only';
 requires 'App::cpanminus';
-requires 'Module::Build::Pluggable::Base';
+requires 'Module::Build::Pluggable' => 0.08;
 
 on 'configure' => sub {
     requires 'Module::Build' => '0.40';
