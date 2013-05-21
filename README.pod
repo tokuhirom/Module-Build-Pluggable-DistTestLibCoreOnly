@@ -1,1 +1,0 @@
-lib/Module/Build/Pluggable/DistTestLibCoreOnly.pm
